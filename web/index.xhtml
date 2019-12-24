@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:c="http://xmlns.jcp.org/jsp/jstl/core">
+<h:head>
+
+</h:head>
+<h:body>
+        <c:set var="numerosList" value="#{[1, 2, 3, 4, 5, 6, 7, 8,9, 10]}"/>
+<!--    <p:importEnum type="model.enums.Turnos" var="Turnos" allSuffix="ALL_ENUM_VALUES"/>-->
+
+<!--    <h:outputLabel value="world"/><br/>-->
+<!--    <h:outputLabel value="#{estudanteRegistrarBean.estudante.nome}"/><br/>-->
+<!--    <h:outputLabel value="#{estudanteRegistrarBean.estudante['sobrenome']}"/><br/>-->
+<!--    <h:outputLabel value="#{estudanteRegistrarBean.estudante.nota1 eq estudanteRegistrarBean.estudante.nota2}"/><br/>-->
+<!--    <h:outputLabel value="#{estudanteRegistrarBean.estudante.nota1 == estudanteRegistrarBean.estudante.nota2 and-->
+<!--   estudanteRegistrarBean.estudante.nome.equals('Vitor')}"/><br/>-->
+<!--    <h:outputText value="Comparação Nota"/><br/>-->
+<!--    <h:outputLabel value="#{estudanteRegistrarBean.estudante.nota1 le estudanteRegistrarBean.estudante.nota2}"/><br/>-->
+<!--    <h:outputLabel value="#{estudanteRegistrarBean.estudante.nota1 eq 0 ? 'ZERO' : 'NÃO ZERO'}"/><br/>-->
+<!--    <h:outputLabel value="#{estudanteRegistrarBean.estudante.nota1 = 20}"/><br/>-->
+<!--    <h:outputLabel value="#{estudanteRegistrarBean.estudante.nome += 'sobrenomealgumacoisa'}"/><br/>-->
+<!--    &lt;!&ndash;Palavras Reservadas: and, or, not, eq, ne, lt, gt, le, ge, true, false,-->
+<!--    null, instanceof, empty, div e mod&ndash;&gt;-->
+<!--    <h:outputText value="ENUM"/><br/>-->
+<!--    <h:outputLabel value="#{estudanteRegistrarBean.estudante.turnos eq Turnos.VESPERTINO}"/><br/>-->
+<!--    &lt;!&ndash;Arrays&ndash;&gt;-->
+<!--    <h:outputLabel value="#{estudanteRegistrarBean.nomesArray[0]} #{estudanteRegistrarBean.nomesArray[1]}-->
+<!--#{estudanteRegistrarBean.nomesArray[2]}"/><br/>-->
+<!--    &lt;!&ndash;UI&ndash;&gt;-->
+<!--    <ui:repeat value="#{estudanteRegistrarBean.nomesArray}" var="nome">-->
+<!--        <h:outputLabel value="#{nome}"/><br/>-->
+<!--    </ui:repeat>-->
+<!--    &lt;!&ndash;UI List&ndash;&gt;-->
+<!--    <ui:repeat value="#{estudanteRegistrarBean.nomesList}" var="nome">-->
+<!--        <h:outputLabel value="#{nome}"/><br/>-->
+<!--    </ui:repeat>-->
+<!--    &lt;!&ndash;Set&ndash;&gt;-->
+<!--    <ui:repeat value="#{estudanteRegistrarBean.nomesSet.toArray()}" var="nome">-->
+<!--        <h:outputLabel value="#{nome}"/><br/>-->
+<!--    </ui:repeat>-->
+
+<!--    &lt;!&ndash;Map&ndash;&gt;-->
+<!--    <h:outputLabel value="#{estudanteRegistrarBean.nomesMap.get('Kawori')}"/><br/>-->
+<!--    <h:outputLabel value="#{estudanteRegistrarBean.nomesMap}"/><br/>-->
+<!--    <ui:repeat value="#{estudanteRegistrarBean.nomesMap.entrySet().toArray()}" var="entry">-->
+<!--        <h:outputLabel value="#{entry.key} - #{entry.value}"/><br/>-->
+<!--    </ui:repeat>-->
+
+
+<!--    &lt;!&ndash;Executando Métodos no Bean&ndash;&gt;-->
+<!--    #{estudanteRegistrarBean.executar()}-->
+<!--    #{estudanteRegistrarBean.executar('alguma coisa ai')}-->
+<!--    #{estudanteRegistrarBean.executar(estudanteRegistrarBean.estudante.nome)}-->
+<!--    #{estudanteRegistrarBean.executarRetorno(estudanteRegistrarBean.estudante.nome)}-->
+
+<!--    <h:form>-->
+<!--        <h:commandButton value="Ir para a próxima Página"-->
+<!--                       action="#{estudanteRegistrarBean.irParaIndex2()}"/><br/>-->
+<!--        <h:commandButton value="Soltar Magia" onclick="fazMagica('Hadouken')"/><br/>-->
+<!--        <h:commandButton value="Alert Nome" onclick="fazMagica('#{estudanteRegistrarBean.estudante.nome}')"/>-->
+<!--    </h:form>-->
+<!--    &lt;!&ndash;Imprimindo CSS com Expression Language&ndash;&gt;-->
+<!--    <ui:repeat value="#{estudanteRegistrarBean.nomesList}" var="nome" varStatus="status">-->
+<!--        <h:outputLabel value="#{nome}" style="color: #{status.index mod 2 == 0 ? 'red' : 'green'}"/><br/>-->
+<!--    </ui:repeat>-->
+<!--    <br/>-->
+<!--    <h:form id="form">-->
+<!--        <h:commandButton value="Exibir Notas">-->
+<!--            <f:ajax render="notasGrid" listener="#{estudanteRegistrarBean.exibirNotas()}"/>-->
+<!--        </h:commandButton>-->
+<!--        <h:commandButton value="Esconder Notas">-->
+<!--            <f:ajax render="notasGrid" listener="#{estudanteRegistrarBean.esconderNotas()}"/>-->
+<!--        </h:commandButton>-->
+<!--        <br/>-->
+<!--        <h:panelGrid id="notasGrid">-->
+<!--            <h:outputText value="#{estudanteRegistrarBean.estudante.nome}"/>-->
+<!--            <h:outputText value="#{estudanteRegistrarBean.estudante.sobrenome}"/>-->
+<!--            <h:outputText value="#{estudanteRegistrarBean.estudante.turnos}"/><br/>-->
+<!--            <h:outputText value="#{estudanteRegistrarBean.estudante.nota1}"-->
+<!--                          rendered="#{estudanteRegistrarBean.mostrarNotas}"/><br/>-->
+<!--            <h:outputText value="#{estudanteRegistrarBean.estudante.nota2}"-->
+<!--                          rendered="#{estudanteRegistrarBean.mostrarNotas}"/><br/>-->
+<!--            <h:outputText value="#{estudanteRegistrarBean.estudante.nota3}"-->
+<!--                          rendered="#{estudanteRegistrarBean.mostrarNotas}"/><br/>-->
+<!--        </h:panelGrid>-->
+
+<!--    </h:form>-->
+
+    <!--Lambdas-->
+    #{(soma -> soma + num)(10)}<br/>
+    #{((v1, v2, v3) -> v1 * v2 * v3) (1, 5, 10)}<br/>
+    #{(x -> x * x * x) (2)}<br/>
+    #{cubo = (x -> x * x * x); cubo(10)}<br/>
+    <h:form>
+        <h:commandButton value="Calcular Cubo"
+                         actionListener="#{estudanteRegistrarBean.calcularCubo((x -> x * x * x), 10)}"/>
+    </h:form>
+    <!--Lists-->
+    <ui:repeat value="#{['Testes', 'para', 'JSF']}" var="testandoList">
+        #{testandoList}
+    </ui:repeat>
+    <br/>
+    <!--Sets-->
+    <ui:repeat value="#{{'Testes', 'para', 'JSF', 'JSF'}}" var="testandoSet">
+        #{testandoSet}
+    </ui:repeat>
+    <br/>
+    <!--Map-->
+<!--    <ui:repeat value="#{{'Kousei':'Pianist', 'Kawori':'Violinist'}}"-->
+<!--               var="testandoMap">-->
+<!--        <ui:repeat value="#{testandoMap.entrySet().toArray()}" var="entry">-->
+<!--            #{entry.key} - #{entry.values}-->
+<!--        </ui:repeat>-->
+<!--    </ui:repeat>-->
+    <br/>
+    <ui:repeat value="#{numerosList.stream().filter(v -> v > 5).toList()}" var="result">
+        #{result}
+    </ui:repeat>
+
+</h:body>
+<script type="text/javascript">
+    function fazMagica(magica) {
+        alert(magica);
+    }
+    
+    function alertNome(nome) {
+        alert(nome)
+
+    }
+</script>
+</html>
