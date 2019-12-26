@@ -10,7 +10,7 @@
     </servlet>
     
     <welcome-file-list>
-        <welcome-file>inicioFlow.xhtml</welcome-file>
+        <welcome-file>view.xhtml</welcome-file>
     </welcome-file-list>
     
     <servlet-mapping>

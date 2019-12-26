@@ -1,10 +1,7 @@
-package bean.view;
-
-
-import bean.dependent.TesteDependentBean;
+package bean.dependent;
 
 import javax.annotation.PostConstruct;
-import javax.faces.view.ViewScoped;
+import javax.enterprise.context.Dependent;
 import javax.inject.Inject;
 import javax.inject.Named;
 import java.io.Serializable;
@@ -15,32 +12,30 @@ import java.util.concurrent.ThreadLocalRandom;
 import static java.util.Arrays.asList;
 
 @Named
-@ViewScoped
-public class TesteViewBean implements Serializable {
+@Dependent
+public class TesteDependentBean implements Serializable {
     private List<String> personagens;
     private List<String> personagemSelecionado = new ArrayList<>();
-    private final TesteDependentBean dependentBean;
-
-    @Inject
-    public TesteViewBean(TesteDependentBean dependentBean) {
-        this.dependentBean = dependentBean;
-    }
+    private List<String> categoriasList = new ArrayList<>();
 
     @PostConstruct
     public void init() {
-        System.out.println("Entrando no PostConstruct do ViewScoped");
+        System.out.println("Entrando no PostConstruct do Dependent");
         personagens = asList("Naruto", "Hinata", "Minato");
+    }
+
+    public List<String> getCategoriasList() {
+        return categoriasList;
+    }
+
+    public void setCategoriasList(List<String> categoriasList) {
+        this.categoriasList = categoriasList;
     }
 
     public void selecionarPersonagem() {
         int index = ThreadLocalRandom.current().nextInt(3);
         String personagem = personagens.get(index);
         personagemSelecionado.add(personagem);
-        dependentBean.getPersonagemSelecionado().add(personagem);
-    }
-
-    public TesteDependentBean getDependentBean() {
-        return dependentBean;
     }
 
     public List<String> getPersonagemSelecionado() {
