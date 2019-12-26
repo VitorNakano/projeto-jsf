@@ -10,6 +10,8 @@
         <h:form>
             <h:outputText value="#{testeApplicationBean.categoriaList}"/><br/>
             <h:outputText value="#{testeApplicationBean.dependentBean.categoriasList}"/><br/>
+<!--            <h:outputText value="Estudante Logado: #{testeApplicationBean.sessionBean.estudante.nome}"/><br/>-->
+            <h:outputText value="Estudante Logado: #{testeSessionBean.estudante.nome}"/><br/>
 
             <h:outputText value="#{testeViewBean.personagemSelecionado}"/><br/>
             <h:outputText value="Dependent: #{testeViewBean.dependentBean.personagemSelecionado}"/><br/>

@@ -8,11 +8,21 @@
   <component name="ChangeListManager">
     <list default="true" id="5965b5d1-347f-4733-911a-7829592dedee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/projeto_jsf.war/WEB-INF/classes/bean/application/TesteApplicationBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/projeto_jsf.war/WEB-INF/classes/bean/application/TesteApplicationBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/projeto_jsf.war/WEB-INF/classes/bean/session/TesteSessionBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/projeto_jsf.war/WEB-INF/classes/bean/session/TesteSessionBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/projeto_jsf.war/WEB-INF/classes/bean/view/TesteViewBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/projeto_jsf.war/WEB-INF/classes/bean/view/TesteViewBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/projeto_jsf.war/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/projeto_jsf.war/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/projeto_jsf.war/session.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/projeto_jsf.war/session.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/projeto_jsf.war/view.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/projeto_jsf.war/view.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bean/application/TesteApplicationBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean/application/TesteApplicationBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bean/session/TesteSessionBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean/session/TesteSessionBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bean/view/TesteViewBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean/view/TesteViewBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bean/application/TesteApplicationBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bean/application/TesteApplicationBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bean/session/TesteSessionBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bean/session/TesteSessionBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bean/view/TesteViewBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bean/view/TesteViewBean.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/session.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/web/session.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/view.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/web/view.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/view2.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/web/view2.xhtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +33,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="HTML File" />
         <option value="jsf" />
         <option value="Class" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -243,7 +253,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="JBoss Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -271,7 +281,7 @@
       <workItem from="1577190616178" duration="1764000" />
       <workItem from="1577194195978" duration="1279000" />
       <workItem from="1577195493703" duration="7644000" />
-      <workItem from="1577359654122" duration="4311000" />
+      <workItem from="1577359654122" duration="9141000" />
     </task>
     <servers />
   </component>
@@ -295,10 +305,10 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="174" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1577195630547" />
-    <state x="525" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1577363917814">
+    <state x="525" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1577368030369">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="525" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1577363917814" />
+    <state x="525" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1577368030369" />
     <state x="350" y="118" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1576674473328">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -315,26 +325,30 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="500" y="170" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1576674736890" />
-    <state width="1225" height="223" key="GridCell.Tab.0.bottom" timestamp="1577363969902">
+    <state width="1225" height="223" key="GridCell.Tab.0.bottom" timestamp="1577368594589">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1225" height="223" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1577363969902" />
-    <state width="1225" height="223" key="GridCell.Tab.0.center" timestamp="1577363969902">
+    <state width="1225" height="223" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1577368594589" />
+    <state width="1225" height="223" key="GridCell.Tab.0.center" timestamp="1577368594589">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1225" height="223" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1577363969902" />
-    <state width="1225" height="223" key="GridCell.Tab.0.left" timestamp="1577363969902">
+    <state width="1225" height="223" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1577368594589" />
+    <state width="1225" height="223" key="GridCell.Tab.0.left" timestamp="1577368594589">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1225" height="223" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1577363969902" />
-    <state width="1225" height="223" key="GridCell.Tab.0.right" timestamp="1577363969902">
+    <state width="1225" height="223" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1577368594589" />
+    <state width="1225" height="223" key="GridCell.Tab.0.right" timestamp="1577368594589">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1225" height="223" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1577363969902" />
+    <state width="1225" height="223" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1577368594589" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1577363411691">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1440.860@0.0.1440.860" timestamp="1577363411691" />
+    <state x="417" y="162" width="606" height="536" key="find.popup" timestamp="1577367034901">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="417" y="162" width="606" height="536" key="find.popup/0.0.1440.860@0.0.1440.860" timestamp="1577367034901" />
     <state x="102" y="12" key="new project wizard" timestamp="1576760528648">
       <screen x="0" y="0" width="1440" height="860" />
     </state>

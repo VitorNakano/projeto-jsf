@@ -10,7 +10,7 @@
     </servlet>
     
     <welcome-file-list>
-        <welcome-file>view.xhtml</welcome-file>
+        <welcome-file>login.xhtml</welcome-file>
     </welcome-file-list>
     
     <servlet-mapping>
@@ -30,5 +30,15 @@
     <error-page>
         <location>/error.xhtml</location>
     </error-page>
+    
+    <filter>
+        <filter-name>LoginFilter</filter-name>
+        <filter-class>filter.LoginFilter</filter-class>
+    </filter>
+    
+    <filter-mapping>
+        <filter-name>LoginFilter</filter-name>
+        <url-pattern>/restricted/*</url-pattern>
+    </filter-mapping>
 
 </web-app>
