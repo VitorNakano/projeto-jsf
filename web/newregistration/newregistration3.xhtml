@@ -7,16 +7,17 @@
       xmlns:f="http://xmlns.jcp.org/jsf/core">
 <h:head>
     <h:body>
-        <h:messages/>
         <h:form>
-            <h2>Primeira página de registro FlowScoped</h2>
+            <h2>Terceira página de registro FlowScoped</h2>
             <h:panelGrid columns="2">
                 <h:outputLabel value="Nome"/>
-                <h:inputText value="#{testeFlowBean.nome}"
-                             required="true" requiredMessage="Nome Obrigatório"/>
+                <h:outputLabel value="#{testeFlowBuilderBean.nome}"/>
                 <h:outputLabel value="Sobrenome"/>
-                <h:inputText value="#{testeFlowBean.sobrenome}"/>
-                <h:commandButton value="Next" action="registrationPage2"/>
+                <h:outputLabel value="#{testeFlowBuilderBean.sobrenome}"/>
+                <h:outputLabel value="Endereço"/>
+                <h:outputLabel value="#{testeFlowBuilderBean.endereco}"/>
+                <h:commandButton value="Back" action="newregistration2?faces-redirect=true"/>
+                <h:commandButton value="Salvar" action="exitToIndex"/>
             </h:panelGrid>
         </h:form>
     </h:body>

@@ -1,12 +1,12 @@
-package bean.flow;
+package bean.flowBuilder;
 
 import javax.faces.flow.FlowScoped;
 import javax.inject.Named;
 import java.io.Serializable;
 
 @Named
-@FlowScoped(value = "registration")
-public class TesteFlowBean implements Serializable {
+@FlowScoped(value = "newregistration")
+public class TesteFlowBuilderBean implements Serializable {
     private String nome;
     private String sobrenome;
     private String endereco;

@@ -6,7 +6,22 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5965b5d1-347f-4733-911a-7829592dedee" name="Default Changelist" comment="" />
+    <list default="true" id="5965b5d1-347f-4733-911a-7829592dedee" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/projeto_jsf.war/WEB-INF/classes/bean/flow/TesteFlowBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/projeto_jsf.war/WEB-INF/classes/bean/flow/TesteFlowBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/projeto_jsf.war/inicioFlow.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/projeto_jsf.war/inicioFlow.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/projeto_jsf.war/registration/registration-flow.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/projeto_jsf.war/registration/registration-flow.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/projeto_jsf.war/registration/registration.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/projeto_jsf.war/registration/registration1.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/projeto_jsf.war/registration/registration2.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/projeto_jsf.war/registration/registration2.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/projeto_jsf.war/registration/registration3.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/projeto_jsf.war/registration/registration3.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bean/flow/TesteFlowBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean/flow/TesteFlowBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bean/flow/TesteFlowBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bean/flow/TesteFlowBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/inicioFlow.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/web/inicioFlow.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/registration/registration-flow.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/registration/registration-flow.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/registration/registration1.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/web/registration/registration1.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/registration/registration2.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/web/registration/registration2.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/registration/registration3.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/web/registration/registration3.xhtml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +36,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -29,6 +47,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1V9nujlpCK2OXgy3PSbEAcjOLws" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -36,22 +57,26 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/registration" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/newpendencies" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.52577317" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\workspace\projeto-jsf\web" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\projeto-jsf\web\newpendencies" />
+      <recent name="E:\workspace\projeto-jsf\web\newregistration" />
+      <recent name="E:\workspace\projeto-jsf\src\main\java\bean\flowBuilder" />
+      <recent name="E:\workspace\projeto-jsf\web\pendencies" />
       <recent name="E:\workspace\projeto-jsf\web\registration" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\workspace\projeto-jsf\web" />
     </key>
   </component>
@@ -135,8 +160,7 @@
       </method>
     </configuration>
     <configuration name="WildFly" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 18.0.1.Final" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="projeto-jsf">
           <settings />
@@ -250,6 +274,10 @@
       <workItem from="1576849658664" duration="2711000" />
       <workItem from="1577112399291" duration="1488000" />
       <workItem from="1577186023296" duration="2838000" />
+      <workItem from="1577190616178" duration="1764000" />
+      <workItem from="1577194195978" duration="1279000" />
+      <workItem from="1577195493703" duration="7644000" />
+      <workItem from="1577359654122" duration="1593000" />
     </task>
     <servers />
   </component>
@@ -265,18 +293,18 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="312" y="87" key="#JBoss_Server/0.0.1440.860@0.0.1440.860" timestamp="1576674746960" />
-    <state x="312" y="87" key="#Project_Structure" timestamp="1576760509191">
+    <state x="312" y="87" key="#Project_Structure" timestamp="1577194784662">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="312" y="87" key="#Project_Structure/0.0.1440.860@0.0.1440.860" timestamp="1576760509191" />
-    <state x="174" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576679956490">
+    <state x="312" y="87" key="#Project_Structure/0.0.1440.860@0.0.1440.860" timestamp="1577194784662" />
+    <state x="174" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577195630547">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="174" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1576679956490" />
-    <state x="525" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1577187815278">
+    <state x="174" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1577195630547" />
+    <state x="525" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1577194860380">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="525" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1577187815278" />
+    <state x="525" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1577194860380" />
     <state x="350" y="118" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1576674473328">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -293,22 +321,22 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="500" y="170" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1576674736890" />
-    <state width="445" height="218" key="GridCell.Tab.0.bottom" timestamp="1577189547417">
+    <state width="1225" height="223" key="GridCell.Tab.0.bottom" timestamp="1577361391664">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="445" height="218" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1577189547417" />
-    <state width="445" height="218" key="GridCell.Tab.0.center" timestamp="1577189547416">
+    <state width="1225" height="223" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1577361391664" />
+    <state width="1225" height="223" key="GridCell.Tab.0.center" timestamp="1577361391664">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="445" height="218" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1577189547416" />
-    <state width="445" height="218" key="GridCell.Tab.0.left" timestamp="1577189547416">
+    <state width="1225" height="223" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1577361391664" />
+    <state width="1225" height="223" key="GridCell.Tab.0.left" timestamp="1577361391664">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="445" height="218" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1577189547416" />
-    <state width="445" height="218" key="GridCell.Tab.0.right" timestamp="1577189547417">
+    <state width="1225" height="223" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1577361391664" />
+    <state width="1225" height="223" key="GridCell.Tab.0.right" timestamp="1577361391664">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="445" height="218" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1577189547417" />
+    <state width="1225" height="223" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1577361391664" />
     <state x="102" y="12" key="new project wizard" timestamp="1576760528648">
       <screen x="0" y="0" width="1440" height="860" />
     </state>

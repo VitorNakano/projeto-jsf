@@ -12,11 +12,11 @@
             <h2>Primeira página de registro FlowScoped</h2>
             <h:panelGrid columns="2">
                 <h:outputLabel value="Nome"/>
-                <h:inputText value="#{testeFlowBean.nome}"
+                <h:inputText value="#{testeFlowBuilderBean.nome}"
                              required="true" requiredMessage="Nome Obrigatório"/>
                 <h:outputLabel value="Sobrenome"/>
-                <h:inputText value="#{testeFlowBean.sobrenome}"/>
-                <h:commandButton value="Next" action="registrationPage2"/>
+                <h:inputText value="#{testeFlowBuilderBean.sobrenome}"/>
+                <h:commandButton value="Next" action="newRegistrationPage2"/>
             </h:panelGrid>
         </h:form>
     </h:body>
