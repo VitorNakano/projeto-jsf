@@ -10,7 +10,7 @@
     </servlet>
     
     <welcome-file-list>
-        <welcome-file>login.xhtml</welcome-file>
+        <welcome-file>comunicacao.xhtml</welcome-file>
     </welcome-file-list>
     
     <servlet-mapping>
@@ -40,5 +40,10 @@
         <filter-name>LoginFilter</filter-name>
         <url-pattern>/restricted/*</url-pattern>
     </filter-mapping>
+
+    <context-param>
+        <param-name>images.location</param-name>
+        <param-value>C:\var</param-value>
+    </context-param>
 
 </web-app>
